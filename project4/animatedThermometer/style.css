@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(134, 142, 237);
+}
+.outerDiv{
+    display: flex;
+    justify-content: center;
+}
+.innerDiv{
+    width: 438px;
+}
+h1.mainHeading{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}

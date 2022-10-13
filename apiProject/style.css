@@ -1,0 +1,59 @@
+.centerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    width: 40%;
+    padding: 20px;
+}
+body {
+    background-color: aquamarine;
+}
+
+section {
+    text-align: -webkit-center;
+}
+
+h1 {
+    /* font-family: fantasy; */
+    color: #aa7bba;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+    text-shadow: 1px 3px 0px black;
+    font-size: 28px;
+    font-family: 'Lobster', cursive;
+}
+
+label {
+    font-family: cursive;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+input#nameid {
+    background-color: #d3ff46;
+    border-style: outset;
+    border-width: 3px;
+    font-size: 14px;
+    height: 26px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #5379ff;
+    border-style: outset;
+    border-width: 3px;
+    font-size: 14px;
+    height: 26px;
+    width: 185px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: ghostwhite;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-color: red;
+}

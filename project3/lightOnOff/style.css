@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(134, 193, 193);
+}
+img#myimage {
+    width: 80px;
+    height: 135px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+button {
+    border-radius: 10px;
+}

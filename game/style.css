@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@600&display=swap');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 0px; */
+    background-color: #491579;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    border: solid #0d0202;
+    border-radius: 1rem;
+    border-width: 5px;
+    padding: 2rem 1rem;
+    color: #070601;
+    margin: 60px 0px;
+}
+
+img.image {
+    width: 60%;
+    max-height: 22rem;
+    height: auto;
+    margin: 1rem 0 4rem 0;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+button {
+    min-width: 28rem;
+    background-image: linear-gradient(to right,#455eb5, #5643cc,#673fd7);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    padding: 2.5rem 6rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: rgba(0,0,0,0.25)0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    text-transform: capitalize;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+
+button:hover {
+    box-shadow: rgba(80,63,205,0.2) 0 1px 30px;
+    transition-duration: 0.1s;
+}
+
+button:last-child {
+    /* background: #3f0679; */
+    background-image: linear-gradient(to right,#911427, #9d5722,#a93116);
+    margin-bottom: 0;
+}
+
+
+/* Our game area */
+
+div#gameArea {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newGameButton button {
+    margin: 2rem 0;
+}
+
+input#inputBox {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h3#textOutput {
+    font-size: x-large;
+}
+
+input#inputBox {
+    border: 0.1rem solid #6c2525bd;
+    background: transparent;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    width: 25rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+section.stats {
+    text-align: left;
+    margin-bottom: 4rem;
+    padding: 0px 64px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    width: 25rem;
+}
+
+.info span {
+    color: red;
+}
